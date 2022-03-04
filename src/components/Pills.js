@@ -15,7 +15,7 @@ function Pills(){
                     <h1>Pillboosts</h1>
                 </div>
                 <div>
-                    <p>~ If life were predictable it would cease to be life, and be without flavor ~</p>
+                    <p>~ Choose wisely, anon ~</p>
                 </div>
                 <div className="callImg">
                     <img src="pillimages/genesiscube.png" alt="genesis" />
