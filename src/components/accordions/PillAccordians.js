@@ -112,12 +112,11 @@ const pillAccordions = () => (
     </Accordion>
     <Accordion title="Rektpill">
         <div>
-            <p>Boost type:</p>
-            <p>Egodeth:</p>
-            <p>Synth:</p>
-            <p>Alpha:</p>
+            <p>Boost type: Background Trait</p>
+            <p>Egodeth: Rektor</p>
             <p>Distribution:</p>
-            <p>Notes:</p>
+            <div className="tembed"><TwitterTweetEmbed tweetId={'1359672183061110786'}/></div>
+            <p>Notes: All 73 Rektpills are Generation 1 / technically 'Egodeth'</p>
         </div>
     </Accordion>
     <Accordion title="RATSpill">
