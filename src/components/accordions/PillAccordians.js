@@ -46,6 +46,7 @@ const pillAccordions = () => (
             <p>Boost type: Right Arm Wearable</p>
             <p>Alpha:</p>
             <img src="pillimages/memfruit.png" alt="memfruit" className="tall"/>
+            <img src="pillimages/memrat.png" alt="memrat" className="portrait noborder"/>
             <p>Distribution:</p>
             <div className="tembed"><TwitterTweetEmbed tweetId={'1366140364470501383'}/></div>
             <p>Notes: Memfruit that are "activated" via incantation become portals, 
@@ -95,7 +96,6 @@ const pillAccordions = () => (
     <Accordion title="Unipill">
         <div>
             <p>Boost type: Unicorn Head (Hashmonk) / Unicorn Mask (Pepel) Wearable</p>
-            <p>Alpha:</p>
             <p>Distribution: 10 $UNI for Synth - 400 $UNI for Egodeth</p>
             <div className="tembed"><TwitterTweetEmbed tweetId={'1361068240726818820'}/></div>
         </div>
@@ -103,8 +103,8 @@ const pillAccordions = () => (
     <Accordion title="Hypepill">
         <div>
             <p>Boost type: Talent Trait</p>
-            <p>Egodeth: "The Shill"</p>
-            <p>Synth: "The Schemer"</p>
+            <p>Egodeth: "The Schemer"</p>
+            <p>Synth: "The Shill"</p>
             <p>Distribution:</p>
             <div className="tembed"><TwitterTweetEmbed tweetId={'1356090062484742144'}/></div>
             <p>Notes: Pplpleasr edited and produced motion graphics for the Hypepill promo video </p>
@@ -113,7 +113,7 @@ const pillAccordions = () => (
     <Accordion title="Rektpill">
         <div>
             <p>Boost type: Background Trait</p>
-            <p>Egodeth: Rektor</p>
+            <p>Egodeth: "Rektor"</p>
             <p>Distribution:</p>
             <div className="tembed"><TwitterTweetEmbed tweetId={'1359672183061110786'}/></div>
             <p>Notes: All 73 Rektpills are Generation 1 / technically 'Egodeth'</p>
@@ -121,42 +121,40 @@ const pillAccordions = () => (
     </Accordion>
     <Accordion title="RATSpill">
         <div>
-            <p>Boost type: yo</p>
-            <p>Egodeth:</p>
-            <p>Synth:</p>
+            <p>Boost type: Whole Body Wearable + RATStribe Faction Membership</p>
+            <p>Egodeth: "Shaman" rank</p>
+            <p>Synth: "Artist" rank</p>
             <p>Alpha:</p>
-            <p>Distribution:</p>
-            <p>Notes:</p>
+            <img src="pillimages/pz30.jpeg" alt="rats" className="landscape"/>
+            <img src="pillimages/whiterats.png" alt="rats" className="portrait"/>
+            <img src="pillimages/memrat.png" alt="rats" className="portrait noborder"/>
+            <p>Distribution: Initial acquisition of a RATSpill required swapping an NFT on&nbsp; 
+              <a href="https://rats.art/" target="_blank" rel="noreferrer">rats.art</a> to a RATS token, then
+              swapping the RATS token into the RATSpill</p>
         </div>
     </Accordion>
     <Accordion title="Payback Pill">
         <div>
-            <p>Boost type: test</p>
-            <p>Egodeth:</p>
-            <p>Synth:</p>
-            <p>Alpha:</p>
-            <p>Distribution:</p>
-            <p>Notes:</p>
+            <p>Boost type: Origin Trait</p>
+            <p>Egodeth: "Proto-Antecainian</p>
+            <p>Synth: "Antecainian"</p>
+            <p>Distribution: Payback pills are gifted to contributors in recognition of their contributions to the project.</p>
         </div>
     </Accordion>
     <Accordion title="Genesis">
         <div>
-            <p>Boost type:</p>
-            <p>Egodeth:</p>
-            <p>Synth:</p>
-            <p>Alpha:</p>
+            <p>Boost type: Pet</p>
             <p>Distribution:</p>
-            <p>Notes:</p>
+            <div className="tembed"><TwitterTweetEmbed tweetId={'1356030718338592777'}/></div>
+            <p>Notes: Egodeth Genesis pills will each be a unique 1/1 pet</p>
         </div>
     </Accordion>
     <Accordion title="Prodpill">
         <div>
-            <p>Boost type:</p>
-            <p>Egodeth:</p>
-            <p>Synth:</p>
-            <p>Alpha:</p>
-            <p>Distribution:</p>
-            <p>Notes:</p>
+            <p>Boost type: Talent Trait</p>
+            <p>Egodeth: "Prod-born"</p>
+            <p>Synth: "Tests in Prod"</p>
+            <p>Distribution: Unknown - Association with Yearn contributors and supporting their ecosystem</p>
         </div>
     </Accordion>
   </StyledGal>
@@ -261,5 +259,8 @@ img{
 .tembed{
     width: 70%;
     margin: 3%;
+}
+.noborder{
+  border: none;
 }
 `
