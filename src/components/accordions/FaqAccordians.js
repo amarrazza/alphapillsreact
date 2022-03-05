@@ -21,9 +21,18 @@ const Accordion = ({ title, children }) => {
 const faqAccordions = () => (
   <StyledGal className="wrapper">
     <Accordion title="What is Pills Universe?">
-        <p>Pills Universe is an epic, extendable on-chain MMORPG 
-            set inside a community-created setting called Chainspace.
-            </p>
+        <p>Pills Universe can be broken down into 4 main segments that work together to form
+          a larger whole:
+        </p>
+        <ol>
+          <li>An epic, extendable on-chain MMORPG with crypto-native lore that takes place inside a community-created setting called Chainspace.</li>
+          <li>The avatar creation engine, where you can generate a Pepel or Hashmonk to receive a 2D rendering,
+            and soon after a fully-rigged interoperable 3D model</li>
+          <li>In-house IP creation through the production of comics and animated shorts</li>
+          <li>D.E.R.P.S (Degen-Extendable Role-playing system), a custom ruleset built by the team that underlies
+            the avatar stats, progression, success/failure of in-game actions, + more. Other projects are welcome
+            to adopt D.E.R.P.S to become interoperable with Pills Universe</li>
+        </ol>
     </Accordion>
     <Accordion title="What can I do in Pills Universe?">
       <p>You can mint an avatar, level it up, customize it, 
@@ -32,7 +41,7 @@ const faqAccordions = () => (
     <Accordion title="How can I get an avatar?">
       <p>Portalpills are your key to minting an avatar. There are three ways to acquire a portalpill:
           <ol>
-            <li>Purchase one off <a href="https://opensea.io/collection/pills">OpenSea</a>. 
+            <li>Purchase one off <a href="https://opensea.io/collection/pills" target="_blank" rel="noreferrer">OpenSea</a>. 
             This is the only way to guarantee you receive one</li>
             <li>Participate in the upcoming raffle. This will be at an accessible price</li>
             <li>Place a bid in th upcoming dynamic dutch auction. This will be for a rare

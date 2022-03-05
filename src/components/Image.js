@@ -7,7 +7,7 @@ const Image = props => {
     return(
         <StyledDiv className="imageWrapper">
             <div className="image" id={`image${id}`}>
-                <a href={src} target="blank_">
+                <a href={src} target="_blank" rel="noreferrer">
                     <img src={src} alt={alt} />
                 </a>
             </div>
