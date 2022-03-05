@@ -122,7 +122,7 @@ const pillAccordions = () => (
     </Accordion>
     <Accordion title="RATSpill">
         <div>
-            <p>Boost type: yo</p>
+            <p>Boost type: yoo</p>
             <p>Egodeth:</p>
             <p>Synth:</p>
             <p>Alpha:</p>
