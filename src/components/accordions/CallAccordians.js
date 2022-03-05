@@ -24,9 +24,11 @@ const Accordion = ({ title, children }, props) => {
 const callAccordions = (props) => (
   <StyledGal className="wrapper">
     <Accordion title="Community Call ~ Feb 17th, 2022">
-      <h5>Call recording and notes: 
+        <p>Brainstorm session on materials in-universe</p>
+        <img src="pillimages/call-2-17-2022.png" alt="call" className="callImage"/>
+        <br />
         <a href="https://pills.notion.site/February-17-2022-f7fcd430ead8432fb9a1f6ace5428017" 
-        rel="noreferrer" target="_blank"> Community Call 2-17-2022</a></h5>
+        rel="noreferrer" target="_blank">* Full Call Recording and Notes *</a>
     </Accordion>
     <Accordion title="Community Call ~ Feb 10th, 2022">
       <h5>Call recording and notes: 
@@ -547,6 +549,10 @@ h5 {
 
 .accordion-content {
   padding: 1em 1.5em;
+}
+
+.callImage{
+    width: 70%;
 }
 
 .comicp{
