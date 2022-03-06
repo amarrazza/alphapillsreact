@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Calls from './components/Calls';
 import Pills from './components/Pills';
 import Links from './components/Links';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='/pills' element={<Pills />} />
             <Route path='/links' element={<Links />} />
         </Routes>
+          <Footer />
       </Router>
     </div>
   );
