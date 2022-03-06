@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { TwitterTweetEmbed } from 'react-twitter-embed';
-// import {  TwitterFollowButton, TwitterTweetEmbed } from 'react-twitter-embed';
+
 
 const Accordion = ({ title, children }) => {
   const [isOpen, setOpen] = useState(false);

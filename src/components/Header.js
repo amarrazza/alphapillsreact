@@ -38,7 +38,7 @@ const StyledHeader = styled.header`
         width: 100%;
         top: 0;
         z-index: 999; /* everything should scroll behind this*/
-        background-color: rgba(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.97);
         height: 77.5px;
     }
     .links{

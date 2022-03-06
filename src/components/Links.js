@@ -57,6 +57,7 @@ const StyledGal = styled.div`
 
     h3{
         font-size: 2.5rem;
+        font-weight: bold;
     }
 
     .resources{
@@ -77,6 +78,8 @@ const StyledGal = styled.div`
     a{
         color: #fbfffb;
         text-decoration: none;
+        font-weight: none;
+        font-size: 2.2rem;
 
         &:hover{
             text-decoration: underline;
