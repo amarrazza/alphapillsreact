@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const Image = props => {
-    const { src, alt, text, id } = props.image
+    const { src, alt, text, id, className } = props.image
 
     return(
-        <StyledDiv className="imageWrapper">
+        <StyledDiv>
             <div className="image" id={`image${id}`}>
                 <a href={src} target="_blank" rel="noreferrer">
-                    <img src={src} alt={alt} />
+                    <img src={src} alt={alt} className={className}/>
                 </a>
             </div>
             <div className="imageText">
@@ -35,5 +35,9 @@ const StyledDiv = styled.div`
     .imageText{
         text-align: center;
         padding: 1%;
+    }
+
+    .noborder{
+        border: none;
     }
 `

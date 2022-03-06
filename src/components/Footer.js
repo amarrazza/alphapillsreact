@@ -28,10 +28,10 @@ function Footer(){
                         onClick={() => navigate('/')}/>
                 </div>
                 <div className="links">
-                    <Link to='/pills'>Pills</Link>
-                    <Link to="/gallery/0">Gallery</Link>
-                    <Link to='/calls'>Calls</Link>
-                    <Link to='/links'>Links</Link>
+                    <Link className='link' to='/pills'>Pills</Link>
+                    <Link className='link' to="/gallery/0">Gallery</Link>
+                    <Link className='link' to='/calls'>Calls</Link>
+                    <Link className='link' to='/links'>Links</Link>
                 </div>
             </div>
         </StyledFooter>
@@ -42,7 +42,7 @@ export default Footer;
 
 const StyledFooter = styled.footer`
 
-    padding: 2% 5% 2%;
+    padding: 3% 5% 3%;
     background-color: #f4f3ee;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ const StyledFooter = styled.footer`
         text-decoration: none;
         color: darkslategray;
         font-size: 2rem;
-        margin: 3%;
+        margin: 4%;
     }
     .links{
         display: flex;
@@ -58,6 +58,7 @@ const StyledFooter = styled.footer`
         align-items: center;
         justify-content: center;
         width: 33%;
+        padding-right: 10%;
     }
     .footerWrapper{
         display: flex;
@@ -75,5 +76,4 @@ const StyledFooter = styled.footer`
         &:hover{
             cursor: pointer;
         }
-    
 `
