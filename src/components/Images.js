@@ -9,9 +9,12 @@ const Images = () => {
     let { page } = useParams()
     let navigate = useNavigate();
     let pages = []
-    for(let i = 0; i < imageData.length/2; i++){
+    const numPerPage = 21
+
+    for(let i = 0; i < imageData.length/numPerPage; i++){
         pages.push(i);
     }
+
     const leftArrow = () => {
         if (page <= 0){
             navigate('/gallery/0')
@@ -30,7 +33,7 @@ const Images = () => {
     return(
         <StyledDiv className="imagesContainer">
             <div className="imagesWrapper">
-                {imageData.slice(page * 2, page * 2 + 2).map(image => {
+                {imageData.slice(page * numPerPage, page * numPerPage + numPerPage).map(image => {
                     return(
                         <Image image={image} key={image.id}/>
                     )
