@@ -13,7 +13,7 @@ function Header(){
                     <img src='../pillimages/pills-logo-gold.png' alt='pills logo' className='logo'
                         onClick={() => navigate('/')}/>
                     <Link to='/calls'>Calls</Link>
-                    <Link to='/pills'>Links</Link>
+                    <Link to='/links'>Links</Link>
                 </div>
             </nav>
         </StyledHeader>
