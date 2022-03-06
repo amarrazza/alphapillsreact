@@ -24,12 +24,13 @@ const faqAccordions = () => (
         <p>Pills Universe can be broken down into 4 main segments that work together to form
           a larger whole:
         </p>
+        <br />
         <ol>
-          <li>An epic, extendable on-chain MMORPG with crypto-native lore that takes place inside a community-created setting called Chainspace.</li>
+          <li>An epic, extendable on-chain MMORPG with crypto-native lore that takes place inside a community-created setting called Chainspace</li>
           <li>The avatar creation engine, where you can generate a Pepel or Hashmonk to receive a 2D rendering,
             and soon after a fully-rigged interoperable 3D model</li>
           <li>In-house IP creation through the production of comics and animated shorts</li>
-          <li>D.E.R.P.S (Degen-Extendable Role-playing system), a custom ruleset built by the team that underlies
+          <li>D.E.R.P.S (Degen-Extendable Role-playing System), a custom ruleset built by the team that underlies
             the avatar stats, progression, success/failure of in-game actions, + more. Other projects are welcome
             to adopt D.E.R.P.S to become interoperable with Pills Universe</li>
         </ol>
@@ -165,6 +166,7 @@ h6 {
 
 .accordion-content {
   padding: 1em 1.5em;
+  width: 100%;
 }
 
 img{
