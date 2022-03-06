@@ -5,163 +5,157 @@ const galleryImages = [
     {
         id: id++,
         src: "../pillimages/team.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "capsules",
+        text: "Team portrait work-in-progress"
     },
     {
         id: id++,
         src: "../pillimages/engine1.jpeg",
-        alt: "earthcrusher",
+        alt: "avatar",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/aave11.jpeg",
-        alt: "earthcrusher",
+        alt: "aave",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/ohm12.jpeg",
-        alt: "earthcrusher",
+        alt: "ohm",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/sabo.jpeg",
-        alt: "earthcrusher",
+        alt: "badger",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/smuggler.jpeg",
-        alt: "earthcrusher",
+        alt: "badger",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/brute.jpeg",
-        alt: "earthcrusher",
+        alt: "badger",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/uni11.jpeg",
-        alt: "earthcrusher",
+        alt: "uni",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/ohm11.jpeg",
-        alt: "earthcrusher",
+        alt: "ohm",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/helmpep.jpeg",
-        alt: "earthcrusher",
+        alt: "pepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/3dhelmpep.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/andrelight.jpeg",
-        alt: "earthcrusher",
+        alt: "andre",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/loclouds.jpeg",
-        alt: "earthcrusher",
-        text: ""
+        alt: "origin",
+        text: "Loclouds, one of the Origin Traits"
     },
     {
         id: id++,
         src: "../pillimages/aaetos.png",
-        alt: "earthcrusher",
+        alt: "aaetos",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/frag.jpeg",
-        alt: "earthcrusher",
+        alt: "fragment",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/comicleak.jpeg",
-        alt: "earthcrusher",
+        alt: "comic",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/vitalik3d.jpeg",
-        alt: "earthcrusher",
-        text: ""
-    },
-    {
-        id: id++,
-        src: "../pillimages/vitalikleak.jpeg",
-        alt: "earthcrusher",
+        alt: "vitalik3d",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/aave4.png",
-        alt: "earthcrusher",
+        alt: "aave",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/aave3.png",
-        alt: "earthcrusher",
+        alt: "aave",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/aave2.png",
-        alt: "earthcrusher",
+        alt: "aave",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/aave1.png",
-        alt: "earthcrusher",
+        alt: "aave",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/yfi1.jpeg",
-        alt: "earthcrusher",
+        alt: "yfi",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/yfi6.png",
-        alt: "earthcrusher",
+        alt: "yfi",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/yfi7.png",
-        alt: "earthcrusher",
+        alt: "yfi",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/yfi8.png",
-        alt: "earthcrusher",
+        alt: "yfi",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/yfi9.png",
-        alt: "earthcrusher",
+        alt: "yfi",
         text: ""
     },
     {
@@ -173,621 +167,627 @@ const galleryImages = [
     {
         id: id++,
         src: "../pillimages/badger3.png",
-        alt: "earthcrusher",
+        alt: "badger",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/badger2.png",
-        alt: "earthcrusher",
+        alt: "badger",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/badger1.png",
-        alt: "earthcrusher",
+        alt: "badger",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/dogepepel.png",
-        alt: "earthcrusher",
+        alt: "doge",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/uni1.jpeg",
-        alt: "earthcrusher",
+        alt: "uni",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/uni6.png",
-        alt: "earthcrusher",
+        alt: "uni",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/uni7.png",
-        alt: "earthcrusher",
+        alt: "uni",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/uni8.png",
-        alt: "earthcrusher",
+        alt: "uni",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/uni9.png",
-        alt: "earthcrusher",
+        alt: "uni",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/uni10.png",
-        alt: "earthcrusher",
+        alt: "uni",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/ohm1.jpeg",
-        alt: "earthcrusher",
+        alt: "ohm",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/ohm4.png",
-        alt: "earthcrusher",
+        alt: "ohm",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/ohm5.png",
-        alt: "earthcrusher",
+        alt: "ohm",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/ohm6.png",
-        alt: "earthcrusher",
+        alt: "ohm",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/alch2.jpeg",
-        alt: "earthcrusher",
+        alt: "alch",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/alch5.png",
-        alt: "earthcrusher",
+        alt: "alch",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/alch6.png",
-        alt: "earthcrusher",
+        alt: "alch",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/sush1.png",
-        alt: "earthcrusher",
+        alt: "sushi",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/alch1.jpeg",
-        alt: "earthcrusher",
+        alt: "alch",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/triphash.jpeg",
-        alt: "earthcrusher",
+        alt: "hash",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/clownpep.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/dbzpep.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/horsememe.jpeg",
-        alt: "earthcrusher",
+        alt: "meme",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/holoarmor.png",
-        alt: "earthcrusher",
+        alt: "arc",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/holomandala.png",
-        alt: "earthcrusher",
+        alt: "arc",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/egohashmonk.jpeg",
-        alt: "earthcrusher",
+        alt: "egohash",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/shroomwarrior.jpeg",
-        alt: "earthcrusher",
+        alt: "shrigma",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/arc3.jpeg",
-        alt: "earthcrusher",
+        alt: "arc",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/arc2.jpeg",
-        alt: "earthcrusher",
+        alt: "arc",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/arc1.jpeg",
-        alt: "earthcrusher",
+        alt: "arc",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/3dandre.png",
-        alt: "earthcrusher",
+        alt: "3dandre",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/3dandrehead.png",
-        alt: "earthcrusher",
+        alt: "3dandre",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/yellowparrot.png",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/arcpepel.jpeg",
-        alt: "earthcrusher",
+        alt: "arc",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/archash.jpeg",
-        alt: "earthcrusher",
+        alt: "arc",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/arpepel.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/3dwhitepepel.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/whitepepel2.jpeg",
-        alt: "earthcrusher",
+        alt: "pepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/pepel_07.png",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/pepelcroc.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/3dpuppel.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/puppel.jpeg",
-        alt: "earthcrusher",
+        alt: "puppel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/backpack.jpeg",
-        alt: "earthcrusher",
+        alt: "backpack",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/comic1.jpeg",
-        alt: "earthcrusher",
+        alt: "comic",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/cobrain.png",
-        alt: "earthcrusher",
+        alt: "cobrain",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/hypepyramid.jpeg",
-        alt: "earthcrusher",
+        alt: "hype",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/3dhashconcept.jpeg",
-        alt: "earthcrusher",
+        alt: "hashconcept",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/sushipill.jpeg",
-        alt: "earthcrusher",
+        alt: "sushi",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/pillschem.jpeg",
-        alt: "earthcrusher",
+        alt: "chem",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/aavepill.jpeg",
-        alt: "earthcrusher",
+        alt: "aave",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/shadowkitreveal.jpeg",
-        alt: "earthcrusher",
+        alt: "shadowkit",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/attributes.jpeg",
-        alt: "earthcrusher",
+        alt: "attrs",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/modes.jpeg",
-        alt: "earthcrusher",
+        alt: "modes",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/pepcolor2.jpeg",
-        alt: "earthcrusher",
+        alt: "pepcolor",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/pepgalaxybrain.jpeg",
-        alt: "earthcrusher",
+        alt: "galaxybrain",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/pepcolor1.jpeg",
-        alt: "earthcrusher",
+        alt: "pepcolor",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/rektpill.jpeg",
-        alt: "earthcrusher",
+        alt: "rekt",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/chainspace.jpeg",
-        alt: "earthcrusher",
-        text: ""
+        alt: "space",
+        text: "An attempt to create the first definitive map of Chainspace"
     },
     {
         id: id++,
         src: "../pillimages/portalglobe.png",
-        alt: "earthcrusher",
+        alt: "globe",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/kirbonite.jpeg",
-        alt: "earthcrusher",
-        text: ""
+        alt: "kirb",
+        text: "By order of Yield Lord Andre, Blue Kirby was to be made into Kirbonite"
     },
     {
         id: id++,
         src: "../pillimages/blockworm.jpeg",
-        alt: "earthcrusher",
-        text: ""
+        alt: "blockworm",
+        text: "Blockworms share a temporal connection to each block they engrave/process"
     },
     {
         id: id++,
         src: "../pillimages/cron.jpeg",
-        alt: "earthcrusher",
-        text: ""
+        alt: "cron",
+        text: "Cron's Sarcophagus preserves his body after its corruption led to the collapse of his yield empire"
     },
     {
         id: id++,
         src: "../pillimages/egodethcult.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "egodethcult",
+        text: "The eyes and ears of The Guardian of the Genesis Cube"
     },
     {
         id: id++,
         src: "../pillimages/shadowpakt.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "shadowpakt",
+        text: "A group guided by the Shadowpak, seeking to initiate and sustain The Cycle"
     },
     {
         id: id++,
         src: "../pillimages/trach.jpeg",
-        alt: "earthcrusher",
-        text: ""
+        alt: "trach",
+        text: "Tracheopteryx of Yield Clan Yearn"
     },
     {
         id: id++,
         src: "../pillimages/maki.jpeg",
-        alt: "earthcrusher",
-        text: ""
+        alt: "maki",
+        text: "Leader of the Yield Clan Sushi. Little is currently known of the pseudosecretive figure"
     },
     {
         id: id++,
         src: "../pillimages/stani.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "stani",
+        text: "Leader of the Yield Clan Aave. The Yield Lord Stani possesses the Ape Crown of Cron and is protected by his three pet Memwraiths"
     },
     {
         id: id++,
         src: "../pillimages/pillhead.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "pillhead",
+        text: "Made from the Genesis Cube. Tasked to restore the Genesis Cube in order to initiate The Regenesis Event"
     },
     {
         id: id++,
         src: "../pillimages/pak.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "pak",
+        text: "The sentient polyhedron known as “PAK” exists simultaneously within, across, through, between and beyond Chainspace"
     },
     {
         id: id++,
         src: "../pillimages/kain.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "kain",
+        text: "Leader of the Yield Clan Synthetix. The Yield Lord Kain mastered the craft of synthetic construction - the ability to create artificial versions of organic objects"
     },
     {
         id: id++,
         src: "../pillimages/andre.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "andre",
+        text: "Leader of the Yield Clan Yearn. The Yield Lord Andre, known as the Octoape, has augmented his body to maximize the coding of hyper-effective yield strategies"
     },
     {
         id: id++,
         src: "../pillimages/vitalik.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "vitalik",
+        text: "Vitalik the Vyper-God is a prime architect of the Ethereum chain, designer of the EVM and custodian and teacher of the Vyper language"
     },
     {
         id: id++,
         src: "../pillimages/banteg.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "banteg",
+        text: "A renegade Yield Hunter allied with the Yield Clan Yearn"
     },
     {
         id: id++,
         src: "../pillimages/unigod.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "unigod",
+        text: "A sentient code function, created to maintain the balance of de/centralization across Chainspace"
     },
     {
         id: id++,
         src: "../pillimages/shadowpak.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "shadowpak",
+        text: "An animated corpse composed of burnt PAK-matter and $ASH. Currently guiding its agents in The Shadowpakt to initiate and sustain The Cycle"
     },
     {
         id: id++,
         src: "../pillimages/cz.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "cz",
+        text: "The C.Z.A.R. (Centralized Autonomous Response) is a sentient code function, created to maintain the balance of de/centralization across Chainspace due to a flaw in the EVM"
     },
     {
         id: id++,
         src: "../pillimages/unisock.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "unisock",
+        text: "The Unisockpuppet is an odd, single-minded creature devoted to promoting its creator’s agenda"
     },
     {
         id: id++,
         src: "../pillimages/genesisevent.png",
-        alt: "earthcrusher",
+        alt: "genevent",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/octo3d.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/octoface.png",
-        alt: "earthcrusher",
+        alt: "pepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/4leg3d.jpeg",
-        alt: "earthcrusher",
+        alt: "3dpepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/4leg.png",
-        alt: "earthcrusher",
+        alt: "pepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/memfruitQUEEN.png",
-        alt: "earthcrusher",
+        alt: "memqueen",
         text: "",
         className: "noborder"
     },
     {
         id: id++,
         src: "../pillimages/etherrock.png",
-        alt: "earthcrusher",
+        alt: "etherrock",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/loompox.png",
-        alt: "earthcrusher",
+        alt: "loompox",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/pepeleye.jpeg",
-        alt: "earthcrusher",
+        alt: "pepeleye",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/redmask.png",
-        alt: "earthcrusher",
+        alt: "hashmonk",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/spirit.png",
-        alt: "earthcrusher",
+        alt: "hashmonk",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/cloudy.png",
-        alt: "earthcrusher",
+        alt: "hashmonk",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/cirrus.png",
-        alt: "earthcrusher",
+        alt: "hashmonk",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/frogmouth.png",
-        alt: "earthcrusher",
+        alt: "pepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/whitepepel.png",
-        alt: "earthcrusher",
+        alt: "pepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/kungfu.png",
-        alt: "earthcrusher",
+        alt: "pepel",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/shadowpepel.png",
-        alt: "earthcrusher",
+        alt: "shadow",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/frogger.png",
-        alt: "earthcrusher",
+        alt: "frogtank",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/parrotpepel.png",
-        alt: "earthcrusher",
+        alt: "parrot",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/hashmonks.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "hashmonks",
+        text: "Hashmonks"
     },
     {
         id: id++,
         src: "../pillimages/hashcolor.png",
-        alt: "earthcrusher",
+        alt: "hashcolor",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/pepels.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "pepels",
+        text: "Pepels"
     },
     {
         id: id++,
         src: "../pillimages/memwraith.png",
-        alt: "earthcrusher",
-        text: ""
+        alt: "memwraith",
+        text: "A SYNTH Memwraith pet you receive when boosting with a Memwraith pill"
     },
     {
         id: id++,
         src: "../pillimages/capsuledao.jpeg",
-        alt: "earthcrusher",
+        alt: "capsuledao",
         text: ""
     },
     {
         id: id++,
+        src: "../pillimages/memportal.jpeg",
+        alt: "memportal",
+        text: "Hashmonk stepping through a Memfruit portal"
+    },
+    {
+        id: id++,
         src: "../pillimages/2d3dmaki.jpeg",
-        alt: "earthcrusher",
+        alt: "2d3dmaki",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/andrevid.jpeg",
-        alt: "earthcrusher",
-        text: ""
+        alt: "andre",
+        text: "Yield Lord Andre, featured in the upcoming Genesis video"
     },
     {
         id: id++,
@@ -816,19 +816,19 @@ const galleryImages = [
     {
         id: id++,
         src: "../pillimages/pz4.jpeg",
-        alt: "pz3",
-        text: "PILLS avatars will launch with four features: Leveling, Attributes, Wearables, & Factions"
+        alt: "pz4",
+        text: "Your avatar will accrue XP automatically, over time. Higher levels unlock new wearables, universe locations, lore, and increase your reputation points cap"
     },
     {
         id: id++,
         src: "../pillimages/pz5.jpeg",
-        alt: "pz3",
-        text: "PILLS avatars will launch with four features: Leveling, Attributes, Wearables, & Factions"
+        alt: "pz5",
+        text: "Ability scores and traits give you deep customization options"
     },
     {
         id: id++,
         src: "../pillimages/pz6.jpeg",
-        alt: "pz3",
+        alt: "pz6",
         text: "A full body skeleton supports diverse wearable combinations"
     },
     {

@@ -128,9 +128,9 @@ const pillAccordions = () => (
             <img src="pillimages/pz30.jpeg" alt="rats" className="landscape"/>
             <img src="pillimages/whiterats.png" alt="rats" className="portrait"/>
             <img src="pillimages/memrat.png" alt="rats" className="portrait noborder"/>
-            <p>Distribution: Initial acquisition of a RATSpill required swapping an NFT on&nbsp; 
+            <p>Distribution: Initial acquisition of a RATSpill required swapping a whitelisted NFT on&nbsp; 
               <a href="https://rats.art/" target="_blank" rel="noreferrer">rats.art</a> to a RATS token, then
-              swapping the RATS token into the RATSpill</p>
+              swapping the RATS token into a RATSpill</p>
         </div>
     </Accordion>
     <Accordion title="Payback Pill">
