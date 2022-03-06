@@ -3,7 +3,7 @@ let id = 0
 
 const galleryImages = [
     {
-        id: id,
+        id: id++,
         src: "../pillimages/earthcrusher.jpeg",
         alt: "earthcrusher",
         text: "A maskless Hashmonk with Earthcrusher arms + legs"
