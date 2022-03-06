@@ -45,7 +45,7 @@ const faqAccordions = () => (
             <li>Purchase one off <a href="https://opensea.io/collection/pills" target="_blank" rel="noreferrer">OpenSea</a>. 
             This is the only way to guarantee you receive one</li>
             <li>Participate in the upcoming raffle. This will be at an accessible price</li>
-            <li>Place a bid in th upcoming dynamic dutch auction. This will be for a rare
+            <li>Place a bid in the upcoming dynamic dutch auction. This will be for a rare
                 type of portalpill with unique visual attributes
             </li>
           </ol>
@@ -77,7 +77,7 @@ const faqAccordions = () => (
           if they are eligible. Within your faction you will be able to rise
           through the ranks, earn reputation, and unlock specific faction wearables.
           Some of the main factions include ones native to Pills Universe such as
-          the Shadowpakt, RATStribe and others that are spun-off from DeFi protocols
+          the Shadowpakt or RATStribe, and others that are spun-off from DeFi protocols
           like Yearn, Sushi, Alchemix, Uniswap, Olympus, Badger, and Aave.
       </p>
     </Accordion>

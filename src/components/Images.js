@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import { useNavigate }  from "react-router-dom";
@@ -8,8 +8,12 @@ import imageData from "../imageData/galleryImages";
 const Images = () => {
     let { page } = useParams()
     let navigate = useNavigate();
-    let pages = []
-    const numPerPage = 21
+    let pages = [];
+    const numPerPage = 21;
+
+    useEffect(() => {
+        window.scrollTo(0, 1000)
+      }, [page])
 
     for(let i = 0; i < imageData.length/numPerPage; i++){
         pages.push(i);
