@@ -12,7 +12,7 @@ function Links(){
             <section className="top">
                 <div className="title">
                     <h1>Resources</h1>
-                    <p>~ Below are all official links for Pills Universe, please verify in official Discord ~</p>
+                    <p className="trans">~ Below are all official links for Pills Universe, please verify in official Discord ~</p>
                 </div>
                 <div className="resources">
                     <div className="resourceImage"> 
@@ -35,6 +35,10 @@ function Links(){
                         <br />
                         <h3>Pills Story Mode: &nbsp;&nbsp;<a href="https://storymode.pills.forsale/" target="_blank" rel="noreferrer">
                             https://storymode.pills.forsale/</a></h3>
+                        <h3>Beatcrafters PILLS.FM: &nbsp;&nbsp;<a href="https://www.pills.fm/" target="_blank" rel="noreferrer">
+                            https://www.pills.fm/</a></h3>
+                        <h3>Lorecrafter Intro Doc: &nbsp;&nbsp;<a href="./pillimages/LorecraftIntrodoc.pdf" target="_blank" rel="noreferrer">
+                            Read here</a></h3>
                         <h3>Lore Collaboration Projects: &nbsp;&nbsp;<a href="https://storymode.pills.forsale/tools/" target="_blank" rel="noreferrer">
                             https://storymode.pills.forsale/tools/</a></h3>
                     </div>
@@ -84,5 +88,36 @@ const StyledGal = styled.div`
         &:hover{
             text-decoration: underline;
         }
+    }
+
+    @media (max-width: 550px){
+        h1{
+            font-size: 6rem;
+        }
+        .resources{
+            margin: 2% 1%;
+        }
+        .trans{
+            font-size: 1.2rem;
+            text-align: center;
+            width: 90%;
+            margin-top: 5%;
+        }
+        h3{
+            font-size: 2rem;
+            margin: 2% 0;
+        }
+        .resourceLinks{
+            width: 90%;
+            word-wrap: break-word;
+            margin-top: 10%;
+        }
+        a{
+            font-size: 1.5rem;
+        }
+        .resourceImage{
+            display: none;
+        }
+
     }
 `

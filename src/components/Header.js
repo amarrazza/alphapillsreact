@@ -23,9 +23,10 @@ function Header(){
 export default Header;
 
 const StyledHeader = styled.header`
-
     margin-bottom: 5%;
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
     a{
         text-decoration: none;
         color: darkslategray;
@@ -55,6 +56,34 @@ const StyledHeader = styled.header`
         &:hover{
             cursor: pointer;
         }
+    }
 
+    @media (max-width: 1350px){
+        .links{
+            width: 40%;
+        }
+        .logo{
+            width: 12%;
+        }
+    }
+
+    @media (max-width: 900px){
+        margin-bottom: 8%;
+        .links{
+            width: 60%;
+        }
+
+    }
+
+    @media (max-width: 550px){
+        margin-bottom: 18%;
+        .links{
+            width: 90%;
+
+        }
+        a{
+            font-size: 2.2rem;
+        }
+    }
 
 `

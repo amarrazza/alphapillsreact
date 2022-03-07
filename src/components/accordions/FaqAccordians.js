@@ -102,12 +102,6 @@ h6 {
   font-size: 3.5rem;
 }
 
-.wrapper {
-  width: 600px;
-  margin: 0 auto;
-  
-}
-
 .accordion-wrapper {
     margin: 1%;
   & + * {
@@ -172,4 +166,24 @@ h6 {
 img{
     margin-top: 2%;
 }
+
+
+@media (max-width: 550px){
+    .accordion-wrapper{
+      width: 85%;
+      margin-top: 5%;
+    }
+    .accordion-title {
+      font-size: 1.4rem;
+    }
+    p, a, li{
+      font-size: 1.2rem;
+    }
+    li{
+      margin-top: 3%;
+    }
+    .accordion-content {
+      padding: 1em 1.1em;
+}
+    }
 `

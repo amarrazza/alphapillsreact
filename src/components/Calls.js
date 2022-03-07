@@ -14,7 +14,7 @@ function Calls(){
                 <div className="title">
                     <h1>Community Calls</h1>
                 </div>
-                <div>
+                <div className="under">
                     <p>Every Thursday at 18:00 UTC</p>
                 </div>
                 <div className="callImg">
@@ -69,5 +69,30 @@ const StyledGal = styled.div`
 
     img{
         border: 5px solid #284b63;
+    }
+
+    @media (max-width: 550px){
+        h1{
+            font-size: 5rem;
+            text-align: center;
+        }
+        .title{
+            width: 90%;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+        .under{
+            margin-top: 4%;
+            margin-bottom: 2%;
+        }
+        .callImg{
+            margin: 3%;
+            width: 80%;
+        }
+        .transWrapper{
+            width: 80%;
+            padding: 7.5%;
+        }
     }
 `

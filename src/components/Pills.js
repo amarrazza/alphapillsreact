@@ -69,4 +69,32 @@ const StyledGal = styled.div`
     img{
         border: 5px solid #284b63;
     }
+
+    @media (max-width: 550px){
+
+        h1{
+            font-size: 6rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+
+        .callImg{
+            margin: 3%;
+            width: 80%;
+        }
+
+        .under{
+            margin-bottom: 2%;
+        }
+
+        .transWrapper{
+            width: 80%;
+        }
+
+        h2{
+            font-size: 3rem;
+        }
+    }
 `

@@ -17,11 +17,19 @@ function Home(){
                 <div className="title">
                     <h1>Alpha Pills</h1>
                 </div>
-                <div>
+                <div className="under">
                     <p>~ Building Chainspace as a community, block by block ~</p>
                 </div>
                 <div className="homeImage" >
                     <img src="pillimages/vitalikleak.jpeg" alt="genesis" />
+                </div>
+                <div className="trans">
+                    <div className="transWrapper">
+                        <p> Alpha Pills is meant to serve as a community hub and archive for all things related to Pills Universe.
+                            If there's anything you'd like to see or believe is missing, please don't hesitate to
+                            reach out!
+                        </p>
+                    </div>
                 </div>
                 <div className="catContainer">
                     <div className="catWrapper">
@@ -76,7 +84,6 @@ const StyledGal = styled.div`
         justify-content: center;
         align-items: center;
     }
-
 
     .homeImage{
         width: 75%;
@@ -141,5 +148,64 @@ const StyledGal = styled.div`
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .trans{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%
+
+    }   
+
+    .transWrapper{
+        width: 50%;
+        text-align: center;
+        background-color: #f4f3ee;
+        color: #013a63;
+        padding: 4%;
+        border-radius: 40px;
+    }
+
+    @media (max-width: 550px){
+
+        .catWrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+        }
+
+        .cat{
+            width: 75%;
+            margin: 4%;
+        }
+
+        h1{
+            font-size: 6rem;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+
+        .homeImage{
+            margin: 3%;
+            width: 80%;
+        }
+
+        .under{
+            margin-bottom: 2%;
+            width: 95%;
+            text-align: center;
+        }
+
+        .transWrapper{
+            width: 80%;
+        }
+
+        h2{
+            font-size: 3rem;
+        }
     }
 `
