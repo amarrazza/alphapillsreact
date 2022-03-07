@@ -943,6 +943,7 @@ const StyledGal = styled.div`
   }
 
     @media (max-width: 550px){
+    margin-bottom: 10%;
     .accordion-wrapper{
       margin-top: 5%;
     }
