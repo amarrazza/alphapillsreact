@@ -90,6 +90,23 @@ const StyledGal = styled.div`
         }
     }
 
+    @media (max-width: 1200px){
+        .trans{
+            text-align: center;
+            width: 90%;
+        }
+    }
+
+    @media (max-width: 800px){
+        .trans{
+            text-align: center;
+            width: 90%;
+        }
+        .resourceImage{
+            display: none;
+        }
+    }
+
     @media (max-width: 550px){
         h1{
             font-size: 6rem;
@@ -108,7 +125,7 @@ const StyledGal = styled.div`
             margin: 2% 0;
         }
         .resourceLinks{
-            width: 90%;
+            width: 88%;
             word-wrap: break-word;
             margin-top: 10%;
             text-align: center;

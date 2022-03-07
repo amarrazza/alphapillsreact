@@ -259,8 +259,16 @@ img{
   border: none;
 }
 
+@media (max-width: 1000px){
+  .accordion-wrapper{
+      width: 80%;
+      margin-top: 4%;
+    }
+}
+
 @media (max-width: 550px){
   margin-top: 8%;
+  margin-bottom: 10%;
     .accordion-wrapper{
       width: 95%;
       margin-top: 6%;

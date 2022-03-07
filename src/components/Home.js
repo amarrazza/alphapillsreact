@@ -27,7 +27,7 @@ function Home(){
                     <div className="transWrapper">
                         <p> Alpha Pills is meant to serve as a community hub and archive for all things related to Pills Universe.
                             If there's anything you'd like to see or believe is missing, please don't hesitate to
-                            reach out!
+                            reach out.
                         </p>
                     </div>
                 </div>
@@ -135,6 +135,7 @@ const StyledGal = styled.div`
         justify-content: center;
         padding: 7% 1% 8% 1%;
         border-radius: 0 0 30px 30px;
+        text-align: center;
     }
 
     h2{

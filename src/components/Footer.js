@@ -76,7 +76,19 @@ const StyledFooter = styled.footer`
             cursor: pointer;
         }
     }    
-    
+    @media (max-width: 1000px){
+        .footerWrapper{
+            flex-direction: column;
+            width: 90%;
+        }
+        .logo{
+            width: 25%;
+            margin-bottom: 5%;
+        }
+        .links{
+            display: none;
+        }
+    }
     @media (max-width: 550px){
         padding: 5% 2% 10%;
         .footerWrapper{
