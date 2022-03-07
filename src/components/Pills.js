@@ -14,7 +14,7 @@ function Pills(){
                 <div className="title">
                     <h1>Pillboosts</h1>
                 </div>
-                <div>
+                <div className="under">
                     <p>~ Choose wisely, anon ~</p>
                 </div>
                 <div className="callImg">
@@ -91,10 +91,17 @@ const StyledGal = styled.div`
 
         .transWrapper{
             width: 80%;
+            padding: 7.5%;
         }
 
         h2{
             font-size: 3rem;
+        }
+        
+        .under{
+            margin-bottom: 2%;
+            width: 95%;
+            text-align: center;
         }
     }
 `

@@ -202,6 +202,7 @@ const StyledGal = styled.div`
 
         .transWrapper{
             width: 80%;
+            padding: 7.5%;
         }
 
         h2{

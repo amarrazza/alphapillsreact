@@ -23,10 +23,9 @@ function Header(){
 export default Header;
 
 const StyledHeader = styled.header`
-    margin-bottom: 5%;
+    margin-bottom: 77.5px;
     display: flex;
     justify-content: center;
-    width: 100%;
     a{
         text-decoration: none;
         color: darkslategray;
@@ -68,7 +67,6 @@ const StyledHeader = styled.header`
     }
 
     @media (max-width: 900px){
-        margin-bottom: 8%;
         .links{
             width: 60%;
         }
@@ -76,7 +74,6 @@ const StyledHeader = styled.header`
     }
 
     @media (max-width: 550px){
-        margin-bottom: 18%;
         .links{
             width: 90%;
 

@@ -14,7 +14,7 @@ function Gallery(){
                 <div className="title">
                     <h1>The Crypt</h1>
                 </div>
-                <div>
+                <div className="under">
                     <p>~ Right Click Saving every piece of PILLS art shared thus far ~</p>
                 </div>
                 <div className="galImg">
@@ -51,4 +51,39 @@ const StyledGal = styled.div`
     img{
         border: 5px solid #284b63;
     }
+
+    @media (max-width: 550px){
+
+        h1{
+            font-size: 6rem;
+            text-align: center;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+
+        .galImg{
+            margin: 3%;
+            width: 80%;
+        }
+
+        .under{
+            margin-bottom: 2%;
+        }
+
+        .transWrapper{
+            width: 80%;
+            padding: 7.5%;
+        }
+
+        h2{
+            font-size: 3rem;
+        }
+        
+        .under{
+            margin-bottom: 2%;
+            width: 95%;
+            text-align: center;
+        }
 `
