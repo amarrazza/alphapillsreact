@@ -23,9 +23,9 @@ function Header(){
 export default Header;
 
 const StyledHeader = styled.header`
-
-    margin-bottom: 5%;
-
+    margin-bottom: 77.5px;
+    display: flex;
+    justify-content: center;
     a{
         text-decoration: none;
         color: darkslategray;
@@ -55,6 +55,32 @@ const StyledHeader = styled.header`
         &:hover{
             cursor: pointer;
         }
+    }
 
+    @media (max-width: 1350px){
+        .links{
+            width: 40%;
+        }
+        .logo{
+            width: 12%;
+        }
+    }
+
+    @media (max-width: 900px){
+        .links{
+            width: 60%;
+        }
+
+    }
+
+    @media (max-width: 550px){
+        .links{
+            width: 90%;
+
+        }
+        a{
+            font-size: 2.2rem;
+        }
+    }
 
 `

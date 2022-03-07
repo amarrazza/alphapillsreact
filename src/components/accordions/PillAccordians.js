@@ -23,7 +23,7 @@ const Accordion = ({ title, children }) => {
 const pillAccordions = () => (
   <StyledGal className="wrapper">
     <Accordion title="Mirrorpill">
-        <div>
+        <div className="indAcc">
             <p>Boost type: Left Arm Wearable</p>
             <p>Distribution:</p>
             <div className="tembed"><TwitterTweetEmbed tweetId={'1382396240114159616'}/></div>
@@ -174,11 +174,6 @@ h6 {
   font-size: 3.5rem;
 }
 
-.wrapper {
-  width: 600px;
-  margin: 0 auto;
-  
-}
 
 .accordion-wrapper {
     margin: 1%;
@@ -257,10 +252,43 @@ img{
 }
 
 .tembed{
-    width: 70%;
+    width: 75%;
     margin: 3%;
 }
 .noborder{
   border: none;
 }
+
+@media (max-width: 550px){
+  margin-top: 8%;
+    .accordion-wrapper{
+      width: 95%;
+      margin-top: 6%;
+    }
+    .accordion-content {
+      padding: 1em 0;
+}
+    .accordion-title {
+      font-size: 1.4rem;
+    }
+    p, a, li{
+      font-size: 1.2rem;
+    }
+    li{
+      margin-top: 3%;
+    }
+    .tembed{
+      width: 100%;
+      margin: 3% 0;
+    }
+    .tall{
+    width: 45%;
+    }
+    .landscape{
+    width: 90%;
+    }
+    .portrait{
+    width: 65%
+    }
+    }
 `

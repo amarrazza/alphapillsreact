@@ -12,7 +12,7 @@ const Images = () => {
     const numPerPage = 21;
 
     useEffect(() => {
-        window.scrollTo(0, 1000)
+        window.scrollTo(0, 0)
       }, [page])
 
     for(let i = 0; i < imageData.length/numPerPage; i++){

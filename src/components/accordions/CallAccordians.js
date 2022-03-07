@@ -852,11 +852,6 @@ const StyledGal = styled.div`
     margin: 1%;
   }
 
-  .wrapper {
-    width: 600px;
-    margin: 0 auto;
-  }
-
   .accordion-wrapper {
     & + * {
       margin-top: 0.5em;
@@ -946,4 +941,40 @@ const StyledGal = styled.div`
     color: #fbfffb;
     text-decoration: none;
   }
-`;
+
+    @media (max-width: 550px){
+    .accordion-wrapper{
+      margin-top: 5%;
+    }
+    .accordion-title {
+      font-size: 1.4rem;
+    }
+    p, a, li{
+      font-size: 1.2rem;
+    }
+    li{
+      margin-top: 1%;
+    }
+    .accordion-content {
+      padding: 1em 1.1em;
+    }
+    h2 {
+    font-size: 2rem;
+    margin-top: 3%;
+    margin-bottom: 4%;
+  }
+  .callImage {
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .comicp {
+    width: 95%;
+  }
+
+  .comicbig {
+    width: 95%;
+  }
+
+  }
+`
