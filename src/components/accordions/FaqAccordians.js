@@ -179,6 +179,7 @@ li{
 }
 
 @media (max-width: 550px){
+    margin-bottom: 10%;
     .accordion-wrapper{
       width: 85%;
       margin-top: 5%;
