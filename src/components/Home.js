@@ -126,7 +126,6 @@ const StyledGal = styled.div`
 
     .catImage img{
         border-radius: 30px 30px 0 0;
-        height: 100%;
     }
 
     .catText{
