@@ -75,4 +75,9 @@ h1{
 }
 
 
+@media (max-width: 550px){
+    .tembeds{
+        width: 100%;
+    }
+}
 

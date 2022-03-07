@@ -8,7 +8,17 @@ function Footer(){
     return(
         <StyledFooter>
             <div className='footerWrapper'>
-            <div className='tembeds'>
+                <div className="links">
+                    <Link className='link' to='/pills'>Pills</Link>
+                    <Link className='link' to="/gallery/0">Gallery</Link>
+                    <Link className='link' to='/calls'>Calls</Link>
+                    <Link className='link' to='/links'>Links</Link>
+                </div>
+                <div className='logodiv'>
+                    <img src='../pillimages/pills-logo-gold.png' alt='pills logo' className='logo'
+                        onClick={() => navigate('/')}/>
+                </div>
+                <div className='tembeds'>
                     <TwitterFollowButton
                         screenName={'pillsuniverse'}
                         className='tembed'
@@ -21,17 +31,6 @@ function Footer(){
                         screenName={'threeswordscap'}
                         className='tembed'
                     />
-                </div>
-
-                <div className='logodiv'>
-                    <img src='../pillimages/pills-logo-gold.png' alt='pills logo' className='logo'
-                        onClick={() => navigate('/')}/>
-                </div>
-                <div className="links">
-                    <Link className='link' to='/pills'>Pills</Link>
-                    <Link className='link' to="/gallery/0">Gallery</Link>
-                    <Link className='link' to='/calls'>Calls</Link>
-                    <Link className='link' to='/links'>Links</Link>
                 </div>
             </div>
         </StyledFooter>
@@ -58,7 +57,7 @@ const StyledFooter = styled.footer`
         align-items: center;
         justify-content: center;
         width: 33%;
-        padding-right: 10%;
+        padding-left: 10%;
     }
     .footerWrapper{
         display: flex;
@@ -76,4 +75,20 @@ const StyledFooter = styled.footer`
         &:hover{
             cursor: pointer;
         }
+    }    
+    
+    @media (max-width: 550px){
+        padding: 5% 2% 10%;
+        .footerWrapper{
+            flex-direction: column;
+            width: 90%;
+        }
+        .logo{
+            width: 45%;
+            margin-bottom: 5%;
+        }
+        .links{
+            display: none;
+        }
+    }
 `

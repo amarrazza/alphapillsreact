@@ -40,4 +40,8 @@ const StyledDiv = styled.div`
     .noborder{
         border: none;
     }
+
+    @media (max-width: 550px){
+        width: 85%;
+    }
 `

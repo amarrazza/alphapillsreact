@@ -72,12 +72,12 @@ const StyledDiv = styled.div`
 
     .pageNav{
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: center;
-        width: 20%;
+        width: 40%;
     }
     .pageNum{
-        margin: 2.5%;
+        margin: 2.5% 2%;
         &:hover{
             cursor: pointer;
         }
@@ -89,6 +89,19 @@ const StyledDiv = styled.div`
         margin: 2.5% 5%;
         &:hover{
             cursor: pointer;
+        }
+    }
+    @media (max-width: 550px){
+
+        .pageNav{
+            width: 80%;
+        }
+
+        .pageNav p{
+            font-size: 2rem;
+        }
+        .pageNum{
+            margin: 2.5% 2%;
         }
     }
 
