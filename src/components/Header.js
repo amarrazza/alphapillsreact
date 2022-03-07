@@ -76,10 +76,12 @@ const StyledHeader = styled.header`
     @media (max-width: 550px){
         .links{
             width: 90%;
-
+        }
+        .logo{
+            width: 20%;
         }
         a{
-            font-size: 2.2rem;
+            font-size: 2rem;
         }
     }
 

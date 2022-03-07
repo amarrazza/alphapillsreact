@@ -83,7 +83,7 @@ const StyledGal = styled.div`
         
         .under{
             margin-bottom: 2%;
-            width: 95%;
+            width: 60%;
             text-align: center;
         }
 `

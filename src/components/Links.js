@@ -37,7 +37,7 @@ function Links(){
                             https://storymode.pills.forsale/</a></h3>
                         <h3>Beatcrafters PILLS.FM: &nbsp;&nbsp;<a href="https://www.pills.fm/" target="_blank" rel="noreferrer">
                             https://www.pills.fm/</a></h3>
-                        <h3>Lorecrafter Intro Doc: &nbsp;&nbsp;<a href="./pillimages/LorecraftIntrodoc.pdf" target="_blank" rel="noreferrer">
+                        <h3>Lorecrafter Introduction Doc: &nbsp;&nbsp;<a href="./pillimages/LorecraftIntrodoc.pdf" target="_blank" rel="noreferrer">
                             Read here</a></h3>
                         <h3>Lore Collaboration Projects: &nbsp;&nbsp;<a href="https://storymode.pills.forsale/tools/" target="_blank" rel="noreferrer">
                             https://storymode.pills.forsale/tools/</a></h3>
@@ -111,9 +111,10 @@ const StyledGal = styled.div`
             width: 90%;
             word-wrap: break-word;
             margin-top: 10%;
+            text-align: center;
         }
         a{
-            font-size: 1.5rem;
+            font-size: 1.35rem;
         }
         .resourceImage{
             display: none;
