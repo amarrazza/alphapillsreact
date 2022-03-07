@@ -70,7 +70,9 @@ const StyledGal = styled.div`
     img{
         border: 5px solid #284b63;
     }
-
+    .title{
+        text-align: center;
+    }
     @media (max-width: 550px){
         h1{
             font-size: 5rem;

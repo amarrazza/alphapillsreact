@@ -43,7 +43,7 @@ const faqAccordions = () => (
       <p>Portalpills are your key to minting an avatar. There are three ways to acquire a portalpill:
           <ol>
             <li>Purchase one off <a href="https://opensea.io/collection/pills" target="_blank" rel="noreferrer">OpenSea</a>. 
-            This is the only way to guarantee you receive one</li>
+            This is the only way to guarantee you can mint an avatar</li>
             <li>Participate in the upcoming raffle. This will be at an accessible price</li>
             <li>Place a bid in the upcoming dynamic dutch auction. This will be for a rare
                 type of portalpill with unique visual attributes
@@ -167,6 +167,16 @@ img{
     margin-top: 2%;
 }
 
+li{
+      margin-top: 1%;
+    }
+
+@media (max-width: 1000px){
+  .accordion-wrapper{
+      width: 80%;
+      margin-top: 4%;
+    }
+}
 
 @media (max-width: 550px){
     .accordion-wrapper{
