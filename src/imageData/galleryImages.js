@@ -18,13 +18,13 @@ const galleryImages = [
         id: id++,
         src: "../pillimages/alcxrecruiter.jpeg",
         alt: "capsules",
-        text: ""
+        text: "Alchemix Faction recruiter"
     },
     {
         id: id++,
         src: "../pillimages/unirecruiter.jpeg",
         alt: "capsules",
-        text: ""
+        text: "Uniswap Faction recruiter"
     },
     {
         id: id++,
