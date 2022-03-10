@@ -4,9 +4,57 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
-        src: "../pillimages/team.png",
+        src: "../pillimages/factioncards.jpeg",
         alt: "capsules",
-        text: "Team portrait work-in-progress"
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/azsh.png",
+        alt: "capsules",
+        text: "Azshtttrokk, The Host - An ancient Blockworm"
+    },
+    {
+        id: id++,
+        src: "../pillimages/alcxrecruiter.jpeg",
+        alt: "capsules",
+        text: "Alchemix Faction recruiter"
+    },
+    {
+        id: id++,
+        src: "../pillimages/unirecruiter.jpeg",
+        alt: "capsules",
+        text: "Uniswap Faction recruiter"
+    },
+    {
+        id: id++,
+        src: "../pillimages/seer.jpeg",
+        alt: "capsules",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/seeker.jpeg",
+        alt: "capsules",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/guide.jpeg",
+        alt: "capsules",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/guard.jpeg",
+        alt: "capsules",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/teamfinal.jpeg",
+        alt: "capsules",
+        text: "Team portrait"
     },
     {
         id: id++,
