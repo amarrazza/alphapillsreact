@@ -4,50 +4,62 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/yfirecruiter.jpeg",
+        alt: "yfi",
+        text: "Yearn Faction recruiter"
+    },
+    {
+        id: id++,
+        src: "../pillimages/aaverecruiter.jpeg",
+        alt: "aave",
+        text: "Aave Faction recruiter"
+    },
+    {
+        id: id++,
         src: "../pillimages/factioncards.jpeg",
-        alt: "capsules",
+        alt: "pace factions",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/azsh.png",
-        alt: "capsules",
+        alt: "blockworm",
         text: "Azshtttrokk, The Host - An ancient Blockworm"
     },
     {
         id: id++,
         src: "../pillimages/alcxrecruiter.jpeg",
-        alt: "capsules",
+        alt: "alcx",
         text: "Alchemix Faction recruiter"
     },
     {
         id: id++,
         src: "../pillimages/unirecruiter.jpeg",
-        alt: "capsules",
+        alt: "uni",
         text: "Uniswap Faction recruiter"
     },
     {
         id: id++,
         src: "../pillimages/seer.jpeg",
-        alt: "capsules",
+        alt: "seer",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/seeker.jpeg",
-        alt: "capsules",
+        alt: "seeker",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/guide.jpeg",
-        alt: "capsules",
+        alt: "guide",
         text: ""
     },
     {
         id: id++,
         src: "../pillimages/guard.jpeg",
-        alt: "capsules",
+        alt: "guard",
         text: ""
     },
     {
