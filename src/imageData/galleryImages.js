@@ -4,6 +4,54 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/xmon3.jpeg",
+        alt: "xmon",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/xmon2.jpeg",
+        alt: "xmon",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/sushirecruiter.jpeg",
+        alt: "sushi recruiter",
+        text: "Sushi Faction Recruiter"
+    },
+    {
+        id: id++,
+        src: "../pillimages/xmon1.jpeg",
+        alt: "xmon",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/xmonpill.jpeg",
+        alt: "xmon",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/frogarc.jpeg",
+        alt: "frog concepts",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/hashofmem.jpeg",
+        alt: "hashmonks",
+        text: ""
+    },
+    {
+        id: id++,
+        src: "../pillimages/blockwormc.png",
+        alt: "blockworm",
+        text: "Azshtttrokk, The Host - An ancient Blockworm"
+    },
+    {
+        id: id++,
         src: "../pillimages/yfirecruiter.jpeg",
         alt: "yfi",
         text: "Yearn Faction recruiter"
@@ -24,7 +72,7 @@ const galleryImages = [
         id: id++,
         src: "../pillimages/azsh.png",
         alt: "blockworm",
-        text: "Azshtttrokk, The Host - An ancient Blockworm"
+        text: ""
     },
     {
         id: id++,
