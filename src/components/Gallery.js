@@ -46,7 +46,7 @@ const StyledGal = styled.div`
         margin: 2%;
     }
     .trans{
-        margin-bottom: 5%;
+        margin-bottom: 1%;
     }
     img{
         border: 5px solid #284b63;
