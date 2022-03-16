@@ -441,7 +441,7 @@ const galleryImages = [
         src: "../pillimages/triphash.jpeg",
         alt: "hash",
         text: "",
-        tags: "2d hashmonks earthcrusher"
+        tags: "2d hashmonk earthcrusher"
     },
     {
         id: id++,
