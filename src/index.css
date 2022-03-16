@@ -93,7 +93,9 @@ h1{
         width: 100%;
     }
     .searchWrapper{
-        margin-bottom: 5%;
+        margin-bottom: 8%;
+        width: 70%;
+
     }
 }
 
