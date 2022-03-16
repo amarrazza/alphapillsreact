@@ -41,6 +41,7 @@ const faqAccordions = () => (
     </Accordion>
     <Accordion title="How can I get an avatar?">
       <p>Portalpills are your key to minting an avatar. There are three ways to acquire a portalpill:
+      </p>
           <ol>
             <li>Purchase one off <a href="https://opensea.io/collection/pills" target="_blank" rel="noreferrer">OpenSea</a>. 
             This is the only way to guarantee you can mint an avatar</li>
@@ -49,7 +50,6 @@ const faqAccordions = () => (
                 type of portalpill with unique visual attributes
             </li>
           </ol>
-      </p>
     </Accordion>
     <Accordion title="What are Pills?">
       <p>Pills (not to be confused with portalpills) allow you to boost your avatar 
