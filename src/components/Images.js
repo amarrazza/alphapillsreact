@@ -22,7 +22,7 @@ const Images = () => {
             return fd;
         } 
         else {
-            return fd.text.toLowerCase().includes(inputText);
+            return fd.tags.toLowerCase().includes(inputText);
         }
     })
 
@@ -48,6 +48,9 @@ const Images = () => {
 
     const handleTextInput = e => {
         setInputText(e.target.value.toLowerCase())
+        if (page !== 0){
+            navigate('/gallery/0')
+        }
     }
 
     return(
