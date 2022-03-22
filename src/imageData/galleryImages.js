@@ -4,6 +4,90 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/factions.jpeg",
+        alt: "factions",
+        text: "",
+        tags: "factions recruiters"
+    },
+    {
+        id: id++,
+        src: "../pillimages/pioneers.jpeg",
+        alt: "pioneers",
+        text: "",
+        tags: "pioneers pz01"
+    },
+    {
+        id: id++,
+        src: "../pillimages/templefac.jpeg",
+        alt: "temple",
+        text: "",
+        tags: "Temple Faction Recruiter"
+    },
+    {
+        id: id++,
+        src: "../pillimages/badgerpepel.jpeg",
+        alt: "badger",
+        text: "",
+        tags: "badger faction wearables concepts arclamp"
+    },
+    {
+        id: id++,
+        src: "../pillimages/0x00.jpeg",
+        alt: "0x00",
+        text: "Concept art for 'The 0x00'",
+        tags: "0x00 concepts"
+    },
+    {
+        id: id++,
+        src: "../pillimages/pace2.jpeg",
+        alt: "xmon",
+        text: "",
+        tags: "pace avatar"
+    },
+    {
+        id: id++,
+        src: "../pillimages/pace1.jpeg",
+        alt: "xmon",
+        text: "",
+        tags: "pace avatar"
+    },
+    {
+        id: id++,
+        src: "../pillimages/alcxhash.jpeg",
+        alt: "alcx",
+        text: "",
+        tags: "alcx alchemix faction arclamp concepts "
+    },
+    {
+        id: id++,
+        src: "../pillimages/aaetos1.png",
+        alt: "aaetos",
+        text: "Origin: Aaetos",
+        tags: "aaetos origin"
+    },
+    {
+        id: id++,
+        src: "../pillimages/xmon99.jpeg",
+        alt: "xmon",
+        text: "",
+        tags: "xmon pills"
+    },
+    {
+        id: id++,
+        src: "../pillimages/badgerfac.jpeg",
+        alt: "badger",
+        text: "",
+        tags: "badger faction recruiter"
+    },
+    {
+        id: id++,
+        src: "../pillimages/krolos.jpeg",
+        alt: "krolos",
+        text: "Origin: Krolos",
+        tags: "krolos origin flashbots"
+    },
+    {
+        id: id++,
         src: "../pillimages/xmon3.jpeg",
         alt: "xmon",
         text: "",

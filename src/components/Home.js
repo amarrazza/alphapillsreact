@@ -191,7 +191,7 @@ const StyledGal = styled.div`
 
         .homeImage{
             margin: 3%;
-            width: 80%;
+            width: 85%;
         }
 
         .under{

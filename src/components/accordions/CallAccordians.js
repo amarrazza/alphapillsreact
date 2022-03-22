@@ -21,6 +21,27 @@ const Accordion = ({ title, children }, props) => {
 
 const callAccordions = (props) => (
   <StyledGal className="wrapper">
+    <Accordion title="Community Call ~ Mar 17th, 2022">
+      <p>Project updates</p>
+      <img
+        src="pillimages/cc31722.png"
+        alt="call"
+        className="callImage"
+      />
+      <img
+        src="pillimages/cc317222.png"
+        alt="call"
+        className="callImage"
+      />
+      <br />
+      <a
+        href="https://www.notion.so/pills/Community-Call-4d5fe17f53a443c69516dac19c87db1a"
+        rel="noreferrer"
+        target="_blank"
+      >
+        * Full Call Recording and Notes *
+      </a>
+    </Accordion>
     <Accordion title="Community Call ~ Mar 3rd, 2022">
       <div className="calldetails">
         <div className="calltext">
