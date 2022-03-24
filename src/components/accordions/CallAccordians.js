@@ -21,6 +21,34 @@ const Accordion = ({ title, children }, props) => {
 
 const callAccordions = (props) => (
   <StyledGal className="wrapper">
+    <Accordion title="Community Call ~ Mar 24th, 2022">
+      <p>Went through project updates</p>
+      <img
+        src="pillimages/cc324221.png"
+        alt="call"
+        className="callImage"
+      />
+      <img
+        src="pillimages/cc324222.png"
+        alt="call"
+        className="callImage"
+      />
+      <ul>
+        <li>Blit pill leaked</li>
+        <img
+        src="pillimages/blitpill.png"
+        alt="blit"
+        className="landscape"
+        />
+        <li>3D hashmonk leaked</li>
+        <img
+        src="pillimages/3dhashnullface.png"
+        alt="3dhash"
+        className="portrait"
+        />
+        <li>Walked through avatar creator for hashmonks</li>
+      </ul>
+    </Accordion>
     <Accordion title="Community Call ~ Mar 17th, 2022">
       <p>Project updates</p>
       <img
