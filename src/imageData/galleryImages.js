@@ -4,6 +4,62 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/pepsage.jpeg",
+        alt: "pepel",
+        text: "",
+        tags: "sage"
+    },
+    {
+        id: id++,
+        src: "../pillimages/unisockpepel.jpeg",
+        alt: "pepel",
+        text: "",
+        tags: "3d unisockpuppet pepel"
+    },
+    {
+        id: id++,
+        src: "../pillimages/dgpep3d.jpeg",
+        alt: "dgpep1",
+        text: "",
+        tags: "3d pepel"
+    },
+    {
+        id: id++,
+        src: "../pillimages/dgpep2d.jpeg",
+        alt: "pepel",
+        text: "",
+        tags: "2d pepel"
+    },
+    {
+        id: id++,
+        src: "../pillimages/bearbarian2.png",
+        alt: "bearbarian",
+        text: "",
+        tags: "bearbarian concepts"
+    },
+    {
+        id: id++,
+        src: "../pillimages/bearbarian1.png",
+        alt: "bearbarian",
+        text: "",
+        tags: "bearbarian concepts"
+    },
+    {
+        id: id++,
+        src: "../pillimages/ogratpepel.jpeg",
+        alt: "rats",
+        text: "",
+        tags: "rats wearable pillboost 2d pepel"
+    },
+    {
+        id: id++,
+        src: "../pillimages/octomaskpepel.jpeg",
+        alt: "octomask",
+        text: "",
+        tags: "octomask 2d pepel"
+    },
+    {
+        id: id++,
         src: "../pillimages/factions.jpeg",
         alt: "factions",
         text: "",
