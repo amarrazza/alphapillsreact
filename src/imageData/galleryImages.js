@@ -4,6 +4,62 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/paktwip.jpeg",
+        alt: "upbringing",
+        text: "",
+        tags: "concepts"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/doomfinal.jpeg",
+        alt: "upbringing",
+        text: "Upbringing: Doomskroler",
+        tags: "Upbringing Doomskroler"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/memport.jpeg",
+        alt: "memportal",
+        text: "",
+        tags: "memportal pace"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/doom.png",
+        alt: "upbringing",
+        text: "",
+        tags: "doomskroler concepts"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/cyclopshash.jpeg",
+        alt: "hashmonk",
+        text: "",
+        tags: "2d waterform hashmonk cyclops mask"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/3dunipepel.jpeg",
+        alt: "pepel",
+        text: "",
+        tags: "3d pepel unipill unicorn"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/3dgalaxybrain.jpeg",
+        alt: "pepel",
+        text: "",
+        tags: "3d pepel galaxy brain"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/bearbarianfinal.png",
+        alt: "upbringing",
+        text: "Upbringing: Bearbarian",
+        tags: "Upbringing Bearbarian"
+    },
+    {
+        id: id++,
         src: "../pillimages/pepsage.jpeg",
         alt: "pepel",
         text: "",
