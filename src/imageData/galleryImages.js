@@ -4,6 +4,34 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/cirrushash1.jpeg",
+        alt: "hashmonk",
+        text: "A Cloudform Hashmonk with Cirrus body parts",
+        tags: "cloudform 2d hashmonk"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/queenmem.jpeg",
+        alt: "queen memfruit",
+        text: "Memfruit Queen",
+        tags: "memfruit queen"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/crystalhash.jpeg",
+        alt: "hashmonk",
+        text: "A Crystalform Hashmonk",
+        tags: "2d hashmonk crystalform"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/mashhash.jpeg",
+        alt: "hashmonk",
+        text: "During the avatar creation process for Hashmonks, you will start off with a Waterform body type. Post-mint, you'll pseudorandomly receive Cloudform and Crystalform body parts to customize yourself further",
+        tags: "2d hashmonk crystalform"
+    },   
+    {
+        id: id++,
         src: "../pillimages/paktwip.jpeg",
         alt: "upbringing",
         text: "",
