@@ -427,7 +427,7 @@ const galleryImages = [
         src: "../pillimages/andrelight.jpeg",
         alt: "andre",
         text: "",
-        tags: "andre"
+        tags: "andre major characters"
     },
     {
         id: id++,
@@ -462,7 +462,7 @@ const galleryImages = [
         src: "../pillimages/vitalik3d.jpeg",
         alt: "vitalik3d",
         text: "",
-        tags: "3d vitalik vyper god"
+        tags: "3d vitalik vyper god major characters"
     },
     {
         id: id++,
@@ -742,14 +742,14 @@ const galleryImages = [
         src: "../pillimages/3dandre.png",
         alt: "3dandre",
         text: "",
-        tags: "3d andre"
+        tags: "3d andre major characters"
     },
     {
         id: id++,
         src: "../pillimages/3dandrehead.png",
         alt: "3dandre",
         text: "",
-        tags: "3d andre head"
+        tags: "3d andre head major characters"
     },
     {
         id: id++,
@@ -980,28 +980,28 @@ const galleryImages = [
         src: "../pillimages/trach.jpeg",
         alt: "trach",
         text: "Tracheopteryx of Yield Clan Yearn",
-        tags: "Tracheopteryx of Yield Clan Yearn"
+        tags: "Tracheopteryx of Yield Clan Yearn major characters"
     },
     {
         id: id++,
         src: "../pillimages/maki.jpeg",
         alt: "maki",
         text: "Leader of the Yield Clan Sushi. Little is currently known of the pseudosecretive figure",
-        tags: "Leader of the Yield Clan Sushi"
+        tags: "Leader of the Yield Clan Sushi major characters"
     },
     {
         id: id++,
         src: "../pillimages/stani.png",
         alt: "stani",
         text: "Leader of the Yield Clan Aave. The Yield Lord Stani possesses the Ape Crown of Cron and is protected by his three pet Memwraiths",
-        tags: "Leader of the Yield Clan Aave Yield Lord Stani memwraiths"
+        tags: "Leader of the Yield Clan Aave Yield Lord Stani memwraiths major characters"
     },
     {
         id: id++,
         src: "../pillimages/pillhead.png",
         alt: "pillhead",
         text: "Made from the Genesis Cube. Tasked to restore the Genesis Cube in order to initiate The Regenesis Event",
-        tags: "pillhead"
+        tags: "pillhead major characters"
     },
     {
         id: id++,
@@ -1015,35 +1015,35 @@ const galleryImages = [
         src: "../pillimages/kain.png",
         alt: "kain",
         text: "Leader of the Yield Clan Synthetix. The Yield Lord Kain mastered the craft of synthetic construction - the ability to create artificial versions of organic objects",
-        tags: "Leader of the Yield Clan Synthetix Yield Lord Kain"
+        tags: "Leader of the Yield Clan Synthetix Yield Lord Kain major characters"
     },
     {
         id: id++,
         src: "../pillimages/andre.png",
         alt: "andre",
         text: "Leader of the Yield Clan Yearn. The Yield Lord Andre, known as the Octoape, has augmented his body to maximize the coding of hyper-effective yield strategies",
-        tags: "Leader of the Yield Clan Yearn Yield Lord Andre Octoape"
+        tags: "Leader of the Yield Clan Yearn Yield Lord Andre Octoape major characters"
     },
     {
         id: id++,
         src: "../pillimages/vitalik.png",
         alt: "vitalik",
         text: "Vitalik the Vyper-God is a prime architect of the Ethereum chain, designer of the EVM and custodian and teacher of the Vyper language",
-        tags: "Vitalik Vyper God ethereum"
+        tags: "Vitalik Vyper God ethereum major characters"
     },
     {
         id: id++,
         src: "../pillimages/banteg.png",
         alt: "banteg",
         text: "A renegade Yield Hunter allied with the Yield Clan Yearn",
-        tags: "Yield Clan Yearn bunny"
+        tags: "Yield Clan Yearn bunny major characters"
     },
     {
         id: id++,
         src: "../pillimages/unigod.png",
         alt: "unigod",
         text: "A sentient code function, created to maintain the balance of de/centralization across Chainspace",
-        tags: "unigod"
+        tags: "unigod major characters"
     },
     {
         id: id++,
@@ -1057,7 +1057,7 @@ const galleryImages = [
         src: "../pillimages/cz.png",
         alt: "cz",
         text: "The C.Z.A.R. (Centralized Autonomous Response) is a sentient code function, created to maintain the balance of de/centralization across Chainspace due to a flaw in the EVM",
-        tags: "czar"
+        tags: "czar major characters"
     },
     {
         id: id++,

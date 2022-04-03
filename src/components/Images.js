@@ -9,7 +9,8 @@ import imageData from "../imageData/galleryImages";
 const Images = () => {
     let { page } = useParams();
     let navigate = useNavigate();
-    const [inputText, setInputText] = useState("")
+    const [inputText, setInputText] = useState("");
+    const [buttonClicked, setButtonClicked] = useState(false);
     let pages = [];
     const numPerPage = 21;
 
@@ -48,6 +49,21 @@ const Images = () => {
 
     const handleTextInput = e => {
         setInputText(e.target.value.toLowerCase())
+        setButtonClicked(false);
+        if (page !== 0){
+            navigate('/gallery/0')
+        }
+    }
+
+    const handleClick = searchTerm => {
+        if (inputText === searchTerm && buttonClicked === true){
+            setInputText('');
+            setButtonClicked(false);
+        } else {
+            setButtonClicked(true);
+            setInputText(searchTerm);
+        }
+
         if (page !== 0){
             navigate('/gallery/0')
         }
@@ -69,6 +85,13 @@ const Images = () => {
                         }
                     }}
                     />
+            </div>
+            <div className="buttonWrapper">
+                <button onClick={() => handleClick('pepel')} className="catButton">Pepels</button>
+                <button onClick={() => handleClick('hashmonk')} className="catButton">Hashmonks</button>
+                <button onClick={() => handleClick('3d')} className="catButton">3d Models</button>
+                <button onClick={() => handleClick('faction')} className="catButton">Factions</button>
+                <button onClick={() => handleClick('major')} className="catButton">Major Characters</button>
             </div>
             <div className="imagesWrapper">
                 {filteredData.slice(page * numPerPage, page * numPerPage + numPerPage).map(image => {
@@ -126,6 +149,31 @@ const StyledDiv = styled.div`
             cursor: pointer;
         }
     }
+
+    .buttonWrapper{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .catButton{
+        background: #f4f3ee;
+        padding: 2.5%;
+        border-radius: 20px;
+        margin: 2.5%;
+        color: #013a63;
+        border: 3px solid #536f82;
+
+        &:hover{
+            cursor: pointer;
+            box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.33);
+        }
+        &:active{
+            box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.69);
+        }
+    }
+
+    }
     @media (max-width: 550px){
 
         .pageNav{
@@ -137,6 +185,17 @@ const StyledDiv = styled.div`
         }
         .pageNum{
             margin: 2.5% 2%;
+        }
+        .buttonWrapper{
+            width: 75%;
+            flex-wrap: wrap;
+        }
+        .catButton{
+            width: 25%;
+            padding: 3.75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
