@@ -4,6 +4,7 @@ import Images from "./Images";
 
 function Gallery(){
 
+    //Scroll to top of page
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])

@@ -12,12 +12,17 @@ const Images = () => {
     const [inputText, setInputText] = useState("");
     const [buttonClicked, setButtonClicked] = useState(false);
     let pages = [];
+
+    //Determines how many images are on each page
     const numPerPage = 21;
 
+    //Scroll to top of page when going through different pages
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [page])
+    
 
+    //Only filters images if text is inputted to the search bar
     const filteredData = imageData.filter(fd => {
         if (inputText === ''){
             return fd;
@@ -31,6 +36,7 @@ const Images = () => {
         pages.push(i);
     }
 
+    //Go back one page, unless on page 0
     const leftArrow = () => {
         if (page <= 0){
             navigate('/gallery/0')
@@ -39,6 +45,7 @@ const Images = () => {
         }
     }
 
+    //Go forward one page, unless on last page
     const rightArrow = () => {
         if (page >= pages.length - 1){
             navigate(`/gallery/${page}`)
@@ -50,6 +57,7 @@ const Images = () => {
     const handleTextInput = e => {
         setInputText(e.target.value.toLowerCase())
         setButtonClicked(false);
+        // Brings back to first page if user starts searching and isn't on the first page
         if (page !== 0){
             navigate('/gallery/0')
         }
@@ -63,7 +71,7 @@ const Images = () => {
             setButtonClicked(true);
             setInputText(searchTerm);
         }
-
+        // Brings back to first page if user starts searching and isn't on the first page
         if (page !== 0){
             navigate('/gallery/0')
         }
