@@ -4,6 +4,20 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/mempillhash.jpeg",
+        alt: "hashmonk",
+        text: "",
+        tags: "mirrorpill 2d hashmonk"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/yieldfarmer.png",
+        alt: "queen memfruit",
+        text: "Upbringing: Yield Farmer",
+        tags: "Upbringing Yield Farmer"
+    },    
+    {
+        id: id++,
         src: "../pillimages/cirrushash1.jpeg",
         alt: "hashmonk",
         text: "A Cloudform Hashmonk with Cirrus body parts",

@@ -7,6 +7,7 @@ function Home(){
     
     let navigate = useNavigate();
 
+    //Brings user to top of page if coming from a different page
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])

@@ -24,7 +24,9 @@ const pillAccordions = () => (
   <StyledGal className="wrapper">
     <Accordion title="Mirrorpill">
         <div className="indAcc">
-            <p>Boost type: Left Arm Wearable</p>
+            <p>Boost type: Headpiece or Left Arm Wearable</p>
+            <p>Alpha:</p>
+            <img src="pillimages/mempillhash.jpeg" alt="mirror" className="square"/>
             <p>Distribution:</p>
             <div className="tembed"><TwitterTweetEmbed tweetId={'1382396240114159616'}/></div>
         </div>
@@ -249,6 +251,10 @@ img{
 
 .portrait{
     width: 46%
+}
+
+.square{
+  width: 60%;
 }
 
 .tembed{
