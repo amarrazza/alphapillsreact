@@ -4,6 +4,27 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/3dblockpep.jpeg",
+        alt: "hashmonk",
+        text: "",
+        tags: "3d pepel blockworm"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/2dblockpep.jpeg",
+        alt: "queen memfruit",
+        text: "",
+        tags: "2d pepel blockworm"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/trader.png",
+        alt: "hashmonk",
+        text: "Upbringing: Trader",
+        tags: "Upbringing Trader"
+    }, 
+    {
+        id: id++,
         src: "../pillimages/mempillhash.jpeg",
         alt: "hashmonk",
         text: "",
