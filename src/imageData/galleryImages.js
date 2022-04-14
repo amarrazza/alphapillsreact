@@ -4,6 +4,27 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/sonicwip.jpeg",
+        alt: "sonic",
+        text: "The Beatcrafter's Sonic Temple",
+        tags: "beatcrafters Sonic Temple"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/tyo.jpeg",
+        alt: "tyo",
+        text: "",
+        tags: "2d pepel tyo tribe"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/operator.png",
+        alt: "upbringing",
+        text: "Upbringing: Operator",
+        tags: "Upbringing Operator"
+    }, 
+    {
+        id: id++,
         src: "../pillimages/3dblockpep.jpeg",
         alt: "hashmonk",
         text: "",
