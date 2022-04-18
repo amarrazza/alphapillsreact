@@ -4,6 +4,118 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/sageface.jpeg",
+        alt: "sage",
+        text: "",
+        tags: "2d pepel"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/3dpaktboost.jpeg",
+        alt: "pakt",
+        text: "",
+        tags: "3d pepel shadowpakt boost"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/2dpaktboost.jpeg",
+        alt: "pakt",
+        text: "",
+        tags: "2d pepel shadowpakt boost"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/curai.jpeg",
+        alt: "curai",
+        text: "",
+        tags: "Cur'AI tribe 2d pepel"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/3dhashmonk.jpeg",
+        alt: "hashmonk",
+        text: "",
+        tags: "3d hashmonk"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/paktbanner.jpeg",
+        alt: "upbringing",
+        text: "Shadowpakt Faction Banner",
+        tags: "Shadowpakt Faction Banner"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/3dpaktbody.jpeg",
+        alt: "operator",
+        text: "",
+        tags: "shadowpakt boost"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/3dpakthead.jpeg",
+        alt: "",
+        text: "",
+        tags: "shadowpakt boost"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/skro.jpeg",
+        alt: "skro",
+        text: "",
+        tags: "2d pepel skro tribe"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/mekt.jpeg",
+        alt: "pepel",
+        text: "",
+        tags: "2d pepel mekt tribe"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/patcher.png",
+        alt: "operator",
+        text: "Upbringing: Operator",
+        tags: "Upbringing Operator"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/patcherwip.png",
+        alt: "Upbringing: Operator",
+        text: "",
+        tags: "concepts"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/skia.jpeg",
+        alt: "skia",
+        text: "",
+        tags: "2d pepel skia tribe"
+    },    
+    {
+        id: id++,
+        src: "../pillimages/paktbanner.jpeg",
+        alt: "upbringing",
+        text: "Shadowpakt Faction Banner",
+        tags: "Shadowpakt Faction Banner"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/chainmap.png",
+        alt: "map",
+        text: "",
+        tags: "map"
+    },  
+    {
+        id: id++,
+        src: "../pillimages/hijkapepel.jpeg",
+        alt: "pepel",
+        text: "",
+        tags: "2d pepel hijka tribe"
+    },    
+    {
+        id: id++,
         src: "../pillimages/sonicwip.jpeg",
         alt: "sonic",
         text: "The Beatcrafter's Sonic Temple",
