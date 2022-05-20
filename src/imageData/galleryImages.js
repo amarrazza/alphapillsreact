@@ -4,6 +4,27 @@ let id = 0
 const galleryImages = [
     {
         id: id++,
+        src: "../pillimages/crystalformhash.jpeg",
+        alt: "crystal",
+        text: "",
+        tags: "3d hashmonk crystalform"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/takeportal.jpeg",
+        alt: "portalpill",
+        text: "",
+        tags: "take the portalpill"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/galbrain.png",
+        alt: "galaxybrain",
+        text: "",
+        tags: "gift galaxy brain"
+    },  
+    {
+        id: id++,
         src: "../pillimages/sageface.jpeg",
         alt: "sage",
         text: "",
