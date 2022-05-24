@@ -22,7 +22,77 @@ const galleryImages = [
         alt: "galaxybrain",
         text: "",
         tags: "gift galaxy brain"
+    },
+    {
+        id: id++,
+        src: "../pillimages/cirrushash.jpeg",
+        alt: "cirrus",
+        text: "",
+        tags: "3d hashmonk cirrus cloudform"
+    },
+    {
+        id: id++,
+        src: "../pillimages/heartpepel.jpeg",
+        alt: "heart",
+        text: "",
+        tags: "3d pepel"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/shadowmarkhash.jpeg",
+        alt: "hashmonk",
+        text: "",
+        tags: "2d hashmonk shadowmarked"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/tropic.jpeg",
+        alt: "hashmonk",
+        text: "",
+        tags: "2d hashmonk tropic"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/artic.jpeg",
+        alt: "artic",
+        text: "",
+        tags: "2d hashmonk artic"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/sunstrider.jpeg",
+        alt: "sunstrider",
+        text: "",
+        tags: "2d hashmonk sunstrider"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/coralhash.jpeg",
+        alt: "coral",
+        text: "",
+        tags: "2d hashmonk coral"
     },  
+    {
+        id: id++,
+        src: "../pillimages/toadpill.jpeg",
+        alt: "toadz",
+        text: "",
+        tags: "cryptoadz pill"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/dreamerhash.jpeg",
+        alt: "hashmonk",
+        text: "",
+        tags: "dreamer mask 3d hashmonk"
+    }, 
+    {
+        id: id++,
+        src: "../pillimages/quanpepel.jpeg",
+        alt: "quanian",
+        text: "",
+        tags: "2d pepel quanian tribe"
+    }, 
     {
         id: id++,
         src: "../pillimages/sageface.jpeg",
